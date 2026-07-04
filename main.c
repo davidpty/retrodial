@@ -64,7 +64,7 @@
 
 #define SPECIAL_L2_HOLD_TIME        SLEEP_2S
 
-#define DTMF_DURATION_MS_SHORT      80
+#define DTMF_DURATION_MS_SHORT      100
 #define DTMF_DURATION_MS_LONG       200
 #define DTMF_PAUSE_MS               2000  // Pause inserted in speed dial memory
 
