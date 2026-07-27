@@ -37,19 +37,19 @@ CFLAGS = -Wall -Os -DF_CPU=$(CLOCK) -mmcu=$(DEVICE)
 
 # -------- Targets --------
 
-all: erdtone.hex
+all: retrodial.hex
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
-erdtone.elf: $(OBJS)
+retrodial.elf: $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $(OBJS)
 
-erdtone.hex: erdtone.elf
+retrodial.hex: retrodial.elf
 	$(OBJCOPY) -j .text -j .data -O ihex $< $@
 
 flash: all
-	$(AVRDUDE) -U flash:w:erdtone.hex:i
+	$(AVRDUDE) -U flash:w:retrodial.hex:i
 
 fuse:
 	$(AVRDUDE) $(FUSES)
@@ -64,7 +64,7 @@ install: clean flash fuse
 clean:
 	rm -f *.o *.elf *.hex
 
-disasm: erdtone.elf
+disasm: retrodial.elf
 	$(OBJDUMP) -d $<
 
 cpp:

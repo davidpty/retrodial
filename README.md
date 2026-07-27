@@ -1,6 +1,6 @@
-# ErdTone
+# RetroDial
 
-Bring a vintage rotary phone back to life on a modern telephone exchange. ErdTone converts pulse dialing to DTMF tones in real time, running on a single ATtiny85 hidden inside the phone with no visible modifications.
+Bring a vintage rotary phone back to life on a modern telephone exchange. RetroDial converts pulse dialing to DTMF tones in real time, running on a single ATtiny85 hidden inside the phone with no visible modifications.
 
 Built around the Siemens W48 with full support for the `Earth key` (German: Erdtaste), it goes beyond basic pulse conversion with last-number redial, speed-dial, Direct Dial Mode, auto-dial on pickup, `*` and `#` hold gestures, pause support, and adjustable DTMF timing. Everything is configured directly from the rotary dial - no computer needed after flashing.
 
@@ -24,7 +24,7 @@ Needed build parts:
 
 ## Circuit
 
-A Fritzing layout is included with a compact footprint designed to fit inside the W48 housing without modifications. See `ErdTone.fzz`.
+A Fritzing layout is included with a compact footprint designed to fit inside the W48 housing without modifications. See `pcb.fzz`.
 
 ## Wiring
 
@@ -196,5 +196,5 @@ Factory reset is blocked when a lock mode is active.
 
 ## Credits
 
-ErdTone builds on the work of [Boris Cherkasskiy](http://boris0.blogspot.ca/2013/09/rotary-dial-for-digital-age.html), who created the original firmware in 2011, [Arnie Weber](https://bitbucket.org/310weber/rotary_dial/), who reworked the hardware in 2015, and [Matthew Millman](http://tech.mattmillman.com/), who cleaned up the implementation in 2018.
+RetroDial builds on the work of [Boris Cherkasskiy](http://boris0.blogspot.ca/2013/09/rotary-dial-for-digital-age.html), who created the original firmware in 2011, [Arnie Weber](https://bitbucket.org/310weber/rotary_dial/), who reworked the hardware in 2015, and [Matthew Millman](http://tech.mattmillman.com/), who cleaned up the implementation in 2018.
 
