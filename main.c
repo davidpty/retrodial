@@ -14,7 +14,7 @@
 //                Cleaned up implementation, modified to work more like the
 //                Rotatone commercial product.
 //
-// Modified     : davidpty 2026-04-23
+// Modified     : davidpty 2026-07-27
 //                added hotdial, lock dial and support for 'Erdtaste' 
 //
 // This code is distributed under the GNU Public License
