@@ -109,7 +109,7 @@ Dial a digit and hold until the first beep, then release:
 Keep holding until the second beep:
 
 * `4` to `9`, `0` = enter programming mode for that speed-dial slot
-* `1` = cycle DTMF tone duration, 80 ms or 200 ms
+* `1` = cycle DTMF tone duration, 100 ms or 200 ms
 * `2` = cycle menu hold time, 1 s or 2 s
 * `3` = enter auto-dial setup
 
